@@ -16,12 +16,14 @@ html, body {
 
 header {
     width: 100%;
-    padding-bottom: 10%;
-    
+    padding-bottom: 2%;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.5);
 }
-header > h1 {
+header > img {
+    width: 300px;
     text-align: center;
-    padding-bottom: 2vh;
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
 header > menu {
@@ -30,22 +32,17 @@ header > menu {
 }
 
 i#burger {
-    width: 100%;
+    
     display: block;
     color: white;
-    text-align: center;
+    margin-left: 5vw;
     padding-bottom: 1%;
     cursor: pointer;
 }
 i#burger:hover {
-    background-color: white;
-    color: black;
+    color: darkviolet;
 }
 
-header > menu > ul {
-    width: 96vw;
-    margin: auto;
-}
 
 header > menu > ul > li {
     list-style-type: none;   
@@ -56,12 +53,13 @@ header > menu > ul > li > a {
     display: block;
     text-decoration: none;
     color: white;
-    text-align: center;
+    margin-left: 2vw;
 }
 
 header > menu > ul > li:hover {
     background-color: rgba(169, 169, 169, 0.336);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+    color: darkviolet;
     transition: background-color .5s;
 }
 
@@ -69,24 +67,28 @@ header > menu > ul > li:hover {
 
 main {
     width: 95vw;
+    padding-top: 5%;
 }
 
 main > section {
-    padding-bottom: 10vh;
+    padding-bottom: 7vh;
 }
 
 main > section#trabalhos > h1 {
     text-align: center;
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid white;
+    width: 100%;
 }
 
 main > section#trabalhos > div.polaroid {
     background: url(../imagensMontagem/polaroid.jpg) center no-repeat;
     background-size: contain;
-    height: 60vh;
+    height: 50vh;
 }
+
 div.polaroid {
-    margin-bottom: 2vh;
+    margin: 2vh;
 }
 
 main > section#trabalhos > a {
@@ -105,9 +107,9 @@ main > section#trabalhos > a:hover {
 /* DEPOIMENTOS */
 
 main > section#depoimentos {
-    width: 96vw;
-    height: 90vh;
+    width: 100%;
     margin: auto;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 main > section#depoimentos > h1 {
@@ -157,25 +159,46 @@ main > section#depoimentos > a:hover {
 /* RODAPÉ */
 
 footer {
-    width: 95vw;
+    width: 100%;
     background-color: black;
     margin: auto;
     margin-top: 3vh;
+    padding: 2vw;
 }
 
 footer > section > div#rodape {
-    text-align: center;
-    border-bottom: 2px solid white;
+    width: 100%;
+    border-bottom: 1px solid white;
 }
 
 footer > section > div#rodape > h1 {
-    display: inline-block;
     font-size: 1em;
-    margin: 1vw;
+    display: inline;
+    margin: 2vw;
+}
+
+div#rodape > h1#nosdoi {
+text-align: left;
+}
+
+div#rodape > h1#contatos {
+    text-align: right;
+}
+
+div#sobreNos {
+    width: 30vw;
+    float: left;
+    background-color: gray;
+}
+
+div#contato {
+    width: 30vw;
+    float: right;
+    background-color: rgb(160, 153, 153);
 }
 
 footer > section > div > a > img {
-    width: 10vw;
+    width: 50px;
 }
 
 
