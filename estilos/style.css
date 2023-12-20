@@ -58,3 +58,103 @@ header > menu > ul > li:hover {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
     transition: background-color .5s;
 }
+
+main {
+    width: 100vw;
+}
+
+main > section {
+    padding-bottom: 10vh;
+}
+
+main > section > h1 {
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+main > section > div.polaroid {
+    background: url(../imagensMontagem/polaroid.jpg) center no-repeat;
+    background-size: contain;
+    height: 60vh;
+}
+div.polaroid {
+    margin-bottom: 3vh;
+}
+
+main > section#trabalhos > a {
+    text-decoration: none;
+    color: white;
+    font-size: bolder;
+    float: right;
+    margin: 3vh;
+}
+
+main > section > a:hover {
+    color: darkviolet;
+    text-shadow: 2px 2px 5px black;
+}
+
+main > section#depoimentos {
+    width: 95vw;
+    height: 90vh;
+    background-color: rgba(211, 211, 211, 0.178);
+    border-radius: .7vh;
+    margin: auto;
+}
+
+main > section#depoimentos > article > div#imgdepo {
+    width: 130px;
+    height: 130px;
+    margin: 10px 0px 0px 20px;
+    float: left;
+    border-radius: 50%;
+    background: url(../imagensMontagem/IMG_0361-2.jpg) center center;
+    background-size: cover;
+    text-align: center;
+}
+
+main > section#depoimentos > article > div#imgdepo > h3 {
+    display: block;
+    position: relative;
+    bottom: -100%;
+}
+
+main > section#depoimentos > article > div#depoimento {
+    width: 50vw;
+    float: right;
+    text-align: justify;
+}
+
+main > section#depoimentos > a {
+    text-decoration: none;
+    color: white;
+    font-size: bolder;
+    float: left;
+    position: relative;
+    margin: 20px;
+    bottom: -60%;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+footer > section > div#rodape {
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+footer > section > div#rodape > h1 {
+    display: inline-block;
+    font-size: 1em;
+    margin: 1vw;
+}
+
+footer > section > div > a > img {
+    width: 10vw;
+}
+
+
