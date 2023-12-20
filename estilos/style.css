@@ -12,9 +12,12 @@ html, body {
     color: white;
 }
 
+/* CABEÇALHO */
+
 header {
-    width: 100vw;
+    width: 100%;
     padding-bottom: 10%;
+    
 }
 header > h1 {
     text-align: center;
@@ -23,15 +26,15 @@ header > h1 {
 
 header > menu {
     width: 30vw;
-    display: none;
+    display: none;    
 }
 
 i#burger {
-    width: 100vw;
+    width: 100%;
     display: block;
     color: white;
     text-align: center;
-    padding: 1%;
+    padding-bottom: 1%;
     cursor: pointer;
 }
 i#burger:hover {
@@ -39,10 +42,13 @@ i#burger:hover {
     color: black;
 }
 
-header > menu > ul > li {
-    list-style-type: none;
+header > menu > ul {
+    width: 96vw;
     margin: auto;
-    width: 100vw;
+}
+
+header > menu > ul > li {
+    list-style-type: none;   
     border-radius: 5px;
 }
 
@@ -59,8 +65,10 @@ header > menu > ul > li:hover {
     transition: background-color .5s;
 }
 
+/* TRABALHOS */
+
 main {
-    width: 100vw;
+    width: 95vw;
 }
 
 main > section {
@@ -78,7 +86,7 @@ main > section > div.polaroid {
     height: 60vh;
 }
 div.polaroid {
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
 }
 
 main > section#trabalhos > a {
@@ -86,13 +94,15 @@ main > section#trabalhos > a {
     color: white;
     font-size: bolder;
     float: right;
-    margin: 3vh;
+    margin-right: 2vh;
 }
 
-main > section > a:hover {
+main > section#trabalhos > a:hover {
     color: darkviolet;
     text-shadow: 2px 2px 5px black;
 }
+
+/* DEPOIMENTOS */
 
 main > section#depoimentos {
     width: 95vw;
@@ -105,8 +115,7 @@ main > section#depoimentos {
 main > section#depoimentos > article > div#imgdepo {
     width: 130px;
     height: 130px;
-    margin: 10px 0px 0px 20px;
-    float: left;
+    margin: auto;
     border-radius: 50%;
     background: url(../imagensMontagem/IMG_0361-2.jpg) center center;
     background-size: cover;
@@ -120,8 +129,9 @@ main > section#depoimentos > article > div#imgdepo > h3 {
 }
 
 main > section#depoimentos > article > div#depoimento {
-    width: 50vw;
-    float: right;
+    width: 80vw;
+    margin: auto;
+    padding-top: 5vh;
     text-align: justify;
 }
 
@@ -132,11 +142,17 @@ main > section#depoimentos > a {
     float: left;
     position: relative;
     margin: 20px;
-    bottom: -60%;
 }
 
+main > section#depoimentos > a:hover {
+    color: darkviolet;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* RODAPÉ */
+
 footer {
-    width: 100vw;
+    width: 95vw;
     background-color: black;
     margin: auto;
     margin-top: 3vh;
