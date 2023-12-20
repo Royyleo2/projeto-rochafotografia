@@ -75,12 +75,12 @@ main > section {
     padding-bottom: 10vh;
 }
 
-main > section > h1 {
+main > section#trabalhos > h1 {
     text-align: center;
     padding-bottom: 5vh;
 }
 
-main > section > div.polaroid {
+main > section#trabalhos > div.polaroid {
     background: url(../imagensMontagem/polaroid.jpg) center no-repeat;
     background-size: contain;
     height: 60vh;
@@ -105,11 +105,16 @@ main > section#trabalhos > a:hover {
 /* DEPOIMENTOS */
 
 main > section#depoimentos {
-    width: 95vw;
+    width: 96vw;
     height: 90vh;
-    background-color: rgba(211, 211, 211, 0.178);
-    border-radius: .7vh;
     margin: auto;
+}
+
+main > section#depoimentos > h1 {
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.479);
+    padding: 1vh;
+    margin-bottom: 3vh;
 }
 
 main > section#depoimentos > article > div#imgdepo {
